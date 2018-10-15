@@ -1,0 +1,22 @@
+title: Categories
+options:
+  url: false
+  status: false
+  preview: false
+  template: false
+deletable: false
+pages:
+  template:
+    - category
+  num:
+    mode: default
+    display: null
+  max: null
+  limit: 20
+  sort: false
+  hide: false
+files: false
+fields:
+  title:
+    label: Title
+    type: title
