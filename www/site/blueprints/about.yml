@@ -1,6 +1,5 @@
 title: About
-pages:
-  template: exhibition
+pages: false
 files: false
 fields:
   title:
@@ -9,3 +8,17 @@ fields:
   text:
     label: Text
     type:  simplemde
+  contact:
+    label: Contact
+    type:  simplemde
+  links:
+    label: Links
+    type: structure
+    style: table
+    fields:
+      title:
+        label: Title
+        type: text
+      url:
+        label: URL
+        type: url
