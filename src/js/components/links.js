@@ -3,7 +3,7 @@ const Links = {
     const links = document.querySelectorAll("a");
     [...links].forEach(lnk => {
       if (lnk.getAttribute("target")) {
-        return
+        return;
       }
       else if (lnk.host !== window.location.host) {
         lnk.setAttribute("target", "_blank");
