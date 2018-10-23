@@ -12,6 +12,6 @@ www/assets/build
 www/site/accounts
 www/site/cache
 www/site/config/cloudinary.php
-www/site/config/licence.php
+www/site/config/license.php
 www/assets/avatars
 www/thumbs/*
