@@ -67,13 +67,6 @@ c::set('simplemde.buttons', array(
 ));
 
 c::set('routes', array(
-	// array(
-	// 	'pattern' => 'info/(:any)',
-	// 	'action'  => function($uri,$uid) {
-	// 		$page = site()->homePage();
-	// 		go($page);
-	// 	}
-	// 	),
 	array(
 		'pattern' => 'robots.txt',
 		'action' => function () {
