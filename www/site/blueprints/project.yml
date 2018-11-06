@@ -75,7 +75,10 @@ fields:
         type: text
       text:
         label: Text
-        type: simplemde
+        type: text
+      url:
+        label: URL
+        type: url
   medias:
     label: Medias
     type: engineer
