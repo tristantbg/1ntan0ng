@@ -36,6 +36,8 @@ files:
     #   type: select
     #   options: videos
 fields:
+  previewfiles: 
+    type: previewfiles
   prevnext: prevnext
   title:
     label: Title
