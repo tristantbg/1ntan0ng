@@ -103,6 +103,18 @@ fields:
           #     small: Small
           #     large: Large
           #     xlarge: X-Large
+      embed:
+        label: Embed
+        fields:
+          info:
+            label: Embed
+            type: info
+          thumb:
+            label: Thumb
+            type: image
+          url:
+            label: URL
+            type: embed
       # duo:
       #   label: Duo
       #   fields:
