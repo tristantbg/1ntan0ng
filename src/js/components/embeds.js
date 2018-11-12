@@ -6,13 +6,13 @@ const Embeds = {
     });
   },
   apply: e => {
-    const wrapper = e.target.parentNode;
+    const wrapper = e.currentTarget.parentNode;
     const embed = wrapper.children[0];
     const script = wrapper.querySelector("script");
     embed.src = script
       ? `${script.getAttribute("data-src")}&autoplay=1`
       : `${embed.getAttribute("data-src")}&autoplay=1`;
-    wrapper.removeChild(e.target);
+    wrapper.removeChild(e.currentTarget);
   }
 };
 

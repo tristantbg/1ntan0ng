@@ -1,0 +1,14 @@
+section.section--image
+	+above($sm + 1)
+		&:nth-child(even)
+			.section--image--content
+				float right
+		.responsive-image
+			.ph
+				display none
+			img
+				display block
+				position static
+				height 100vh
+				min-height 500px
+				width auto

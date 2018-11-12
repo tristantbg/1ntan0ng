@@ -11,7 +11,7 @@ $sm = 767px
 // Colors
 $primary ?= #fff
 $secondary ?= #000
-$accent ?= #ff0000
+$gray ?= alpha($secondary, 0.5)
 
 // Metrics
 $space = 1rem
@@ -42,4 +42,5 @@ global-reset()
 @import 'components/_header'
 @import 'components/_pages'
 @import 'pages/index'
+@import 'sections/index'
 // @import 'components/_project-slider'

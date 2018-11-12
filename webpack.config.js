@@ -77,11 +77,15 @@ module.exports = {
         use: { loader: "babel-loader" }
       },
       {
+        test: /\.css?$/,
+        use: [MiniCssExtractPlugin.loader, 'css-loader']
+      },
+      {
         test: /\.styl(us)?$/,
         use: [MiniCssExtractPlugin.loader, 'css-loader', 'stylus-loader']
       },
       {
-        test: /\.(woff|eot|ttf)$/,
+        test: /\.(woff|woff2|eot|ttf)$/,
         use: { loader: "url-loader" }
       },
       {

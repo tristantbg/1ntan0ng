@@ -1,10 +1,13 @@
 <?php
 
 return function ($site, $pages, $page) {
-	$projects = $page->children()->visible();
+	$projects = $site->index()->filterBy('intendedTemplate', 'project')->visible();
+	$categories = page('categories')->children()->visible();
 
 	return array(
-	'projects' => $projects
+		'aboutPage' => $pages->filterBy('intendedTemplate', 'about')->first(),
+		'projects' => $projects,
+		'categories' => $categories
 	);
 }
 

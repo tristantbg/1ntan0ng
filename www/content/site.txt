@@ -4,13 +4,16 @@ Title: inta+nong
 
 Introimages: 
 
+- inta-nong_logo_square.ai
+- inta-nong_logo_horizontal.ai
+
 ----
 
-Description: 
+Description: fashion/ art direction + casting + consulting + production
 
 ----
 
-Keywords: 
+Keywords: fashion,art,direction,artdirection,casting,consulting,production,intanong,inanongstudio
 
 ----
 
@@ -22,4 +25,4 @@ Googleanalytics:
 
 ----
 
-Ogimage: 
+Ogimage: inta-nong_logo_square.ai

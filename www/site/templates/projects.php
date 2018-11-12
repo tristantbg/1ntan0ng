@@ -1,19 +1,11 @@
 <?php snippet('header') ?>
 
-<?php foreach ($projects as $key => $project): ?>
-
-	<?php if($project->featured()->isNotEmpty()): ?>
-
-	<?php $featured = $project->featured()->toFile() ?>
-
-		<div class="project-item">
-
-			<?= $project->title()->html() ?>
-			
-		</div>
-
-	<?php endif ?>
-
-<?php endforeach ?>
+<div id="projects">
+	<div id="elevator">
+		<?php foreach ($categories as $key => $category): ?>
+			<?php snippet('section-category', ['category' => $category, 'projects' => $projects]) ?>
+		<?php endforeach ?>
+	</div>
+</div>
 
 <?php snippet('footer') ?>

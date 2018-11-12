@@ -5,8 +5,7 @@ return function ($site, $pages, $page) {
 
 	return array(
 		'aboutPage' => $pages->filterBy('intendedTemplate', 'about')->first(),
-		'categories' => $categories,
-		'medias' => $page->medias()->toStructure(),
+		'categories' => $categories
 	);
 }
 
