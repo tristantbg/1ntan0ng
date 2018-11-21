@@ -4,6 +4,12 @@
 
 </div>
 
+<?php if (!$page->is($aboutPage)): ?>
+<div id="about">
+  <?php snippet('about') ?>
+</div>
+<?php endif ?>
+
 </div>
 
 <div id="outdated">

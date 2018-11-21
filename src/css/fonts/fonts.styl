@@ -2,6 +2,7 @@ webfont('SBP', 'SuisseBPIntlThin')
 
 text()
 	font-family SBP, Helevetica, Arial, sans-serif
+	letter-spacing 0.05em
 
 // Main font styles
 
@@ -17,7 +18,7 @@ body,html
 html
 	font-size 16px
 	+below($md)
-		font-size 12px
+		font-size 10px
 
 body
 	text()
@@ -33,6 +34,9 @@ p
 
 .uppercase
 	text-transform uppercase
+
+.lowercase
+	text-transform lowercase
 
 .text-center
 	text-align center

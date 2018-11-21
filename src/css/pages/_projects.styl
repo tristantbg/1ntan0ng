@@ -1,3 +1,9 @@
+[page-type=projects]
+	header
+		+below($md)
+			#project-description, #project-credits
+				display none
+
 #projects
 	position fixed !important
 	top 7.1rem !important
@@ -29,4 +35,7 @@
 					cursor: grabbing;
 	.project-thumbnail
 		img
+			transition filter 200ms ease
 			height calc(100vh - 7.1rem)
+			&:not(.lazyloaded)
+				filter: blur(10px)

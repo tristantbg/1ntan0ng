@@ -4,6 +4,13 @@
 		span(1)
 		background transparent
 		height auto
+		+below($md)
+			#menu-categories
+				display none
+			#project-description, #project-credits
+				column(2/3, $offset: 1/3)
+			#project-credits
+				margin-top 1em
 
 #project-sections
 	section

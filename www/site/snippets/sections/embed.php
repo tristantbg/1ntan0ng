@@ -3,7 +3,7 @@
 		<div class="sizable-media section--embed--content <?= $data->get("size") ?>">
 			<div class="content">
 				<?php if ($thumbnail = $data->get("thumb")->toFile()): ?>
-				<?= $embed->embed(['thumbnail' => $thumbnail->width(2020)->url()]) ?>
+				<?= $embed->embed(['thumb' => $thumbnail->width(2020)->url()]) ?>
 				<?php else: ?>
 				<?= $embed->embed() ?>
 				<?php endif ?>

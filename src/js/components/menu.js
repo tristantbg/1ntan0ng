@@ -1,5 +1,6 @@
 const Menu = {
   init: () => {
+    Menu.logo = document.getElementById('site-title')
     Menu.categories = document.querySelectorAll('header .category')
     Menu.description = document.getElementById('project-description')
     Menu.credits = document.getElementById('project-credits')
